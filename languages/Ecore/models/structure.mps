@@ -2,11 +2,9 @@
 <model ref="r:7433ccbf-76af-44db-a68b-b2e21f0bcdee(Ecore.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="3" />
-    <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
+    <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
-    <import index="w0zi" ref="r:2a04f2eb-187e-437f-8774-70cd48c794a7(SystemsCoordination.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -208,22 +206,6 @@
       <property role="1uS6qo" value="bb" />
       <property role="1uS6qv" value="bb" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="519X7fTJWyy">
-    <property role="EcuMT" value="5785423975282624674" />
-    <property role="TrG5h" value="NewEClass4" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="519X7fTJWEf" role="1TKVEi">
-      <property role="IQ2ns" value="5785423975282625167" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="topologicalmap" />
-      <ref role="20lvS9" node="519X7fTJW_J" resolve="TopologicalMap" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="519X7fTJW_J">
-    <property role="EcuMT" value="5785423975282624879" />
-    <property role="TrG5h" value="TopologicalMap" />
-    <ref role="1TJDcQ" to="w0zi:1aF2GWU6Ieb" resolve="StateRef" />
   </node>
   <node concept="PlHQZ" id="519X7fU6fmP">
     <property role="EcuMT" value="5785423975288468917" />
