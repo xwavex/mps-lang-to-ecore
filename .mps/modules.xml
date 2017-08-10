@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/Ecore/Ecore.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/LangToEcore.build/LangToEcore.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/LangToEcore/LangToEcore.msd" folder="" />
     </projectModules>
   </component>
